@@ -1,6 +1,6 @@
-
+     
  <div>
-    <h2> Grocery list manager </h2>
+    <h2> Grocery List Manager </h2>
  
     <div class="row">
         <div class="col-xs-6 col-md-4">
@@ -8,19 +8,20 @@
                 <input type="text" class="form-control" placeholder="enter grocery items" [(ngModel)]="task" />
             <br>
                 <div class="input-group-btn">
-                    <button class="btn btn-primary" type="button" (click)="onClick()">Submit List</button>
+                    <button class="btn btn-primary" type="button" (click)="onClick()">Submit</button>
                 </div>
             </div>
         </div>
     </div>
  
     <br/>
-    
-    <ul class="list-group">
-        <li *ngFor="let task of tasks" class="list-group-item">
-            <span> {{ task }} </span>
-        </li>
-    </ul>
- 
+
+    <div>
+        <ul class="list-group">
+            <li *ngFor="let task of tasks" class="list-group-item">
+                <span class=list> {{ task }} &nbsp;&nbsp;</span>
+            </li>
+        </ul>
+        </div>
  
 </div>

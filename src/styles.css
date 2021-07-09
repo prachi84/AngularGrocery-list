@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Architects Daughter', cursive;
+  font-size: 14pt;
+  color: #2B1A00;
+  padding-top: 20px;
+}
+
+body::after {
+  content: "";
+  background-image: url(https://previews.123rf.com/images/saenal78/saenal781604/saenal78160400026/55028613-fast-food-seamless-pattern-hand-drawn-food-background-background-template-for-your-design-vector-ill.jpg);
+  opacity: .2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.input-group{
+  border: 5px solid white;
+  box-shadow: 0 0 5px #b1b1b1;
+  display:ruby-base;
+  margin: auto;
+  padding: 25px;
+  background: #795548;
+  
+  
+}
+.list{
+  border: 5px solid white;
+  box-shadow: 0 0 5px #b1b1b1;
+  margin: 4px;
+  background: #e4c9be;
+  display:block;
+}
